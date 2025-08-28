@@ -65,43 +65,36 @@ Access Floor · 철골구조 · 재난대응 · 해외사업
 
 ---
 
-##  연혁 – History
+<div style="background-color:#FAFAFA; border-radius:16px; padding:32px; margin-top:40px; box-shadow:0 2px 6px rgba(0,0,0,0.05);">
 
-<div style="background-color:#FAFAFA; border-radius:16px; padding:24px; margin-top:40px; box-shadow:0 2px 6px rgba(0,0,0,0.05);">
-  <h2>📜 회사 연혁</h2>
-  
-  <div style="max-width:800px; margin:0 auto; line-height:1.6;">
-    <h3>2010 ~ Present</h3>
-    <ul>
-      <li>2017 – 청주 공장 준공</li>
-      <li>2016 – 음성 제2공장 준공 (대정리)</li>
-      <li>2015 – 베트남 법인 설립 / Access Floor 공장 완공</li>
-      <li>2014 – 산업기술연구원과 기술제휴</li>
-      <li>2012 – KOSHA18001 인증 획득 / 중국 법인 설립</li>
-      <li>2010 – 아산 공장 완공 / R&D Lab 설립</li>
-    </ul>
+  <h2 style="text-align:center; margin-bottom:20px;">📜 회사연혁</h2>
+  <p style="text-align:center; color:#666;">(주)에스비테크 배터리 제품을 이용해주셔서 감사합니다.</p>
 
-    <h3>2000 ~ 2010</h3>
-    <ul>
-      <li>2009 – 금속구조물, 창호, 토목, 철근콘크리트 공사 면허 취득</li>
-      <li>2008 – 지붕금속공사, 건축 구조물 조립·시공 면허 취득</li>
-      <li>2006 – 1,000만 USD 수출탑 수상 / 미국 법인 설립 / 기흥공장 완공</li>
-      <li>2004 – 500만 USD 수출탑 수상</li>
-      <li>2001 – SB Tech 상호 변경 / ISO9001 인증</li>
-    </ul>
+  <div style="max-width:800px; margin:0 auto; line-height:1.8;">
 
-    <h3>1990 ~ 2000</h3>
+  <!-- 2020 -->
+  <div style="margin-bottom:30px;">
+    <h3 style="color:#d6336c;">2020</h3>
     <ul>
-      <li>1996 – 철골구조물 공사 면허, 병역특례업체 지정</li>
-      <li>1995 – 기계설비공사 면허 취득</li>
-      <li>1992 – 음성 금속설비공장 준공 / 자매결연 체결</li>
-      <li>1990 – Sebo Engineering 설립</li>
+      <li>에스비테크 설립 17주년</li>
+      <li>델코 전국 판매 1위</li>
+      <li>X-Pro 전국 판매 1위</li>
+      <li>GM 순정 배터리 전국 총판 업체</li>
+      <li>쌍용자동차 순정 배터리 전국 총판 업체</li>
+      <li>아트라스 배터리 산업용 판매 우수 업체</li>
     </ul>
+  </div>
 
-    <h3>1983 이전</h3>
+  <!-- 2013 -->
+  <div style="margin-bottom:30px;">
+    <h3 style="color:#1c7ed6;">2013</h3>
     <ul>
-      <li>1983 – Sebo Mechanical Industries 내 기계사업부 조직 / 기술제휴 체결</li>
+      <li>(주)에스비테크 사업 개시</li>
+      <li>자동차 배터리 / 산업용 배터리 유통 공급 개시</li>
+      <li>승용차 · 화물차 · 중장비 · 산업용 · 농기계 · 선박용 · 비상발전용 배터리 공급</li>
     </ul>
+  </div>
+
   </div>
 </div>
 
