@@ -2,7 +2,7 @@
 layout: home
 title: SB TECH
 permalink: /
-cover: https://sighingnow.github.io/jekyll-gitbook/assets/dinosaur.gif
+cover: https://sbtech-korea.github.io/assets/dinosaur.gif
 ---
 
 #  (주)에스비테크 – 끊임없는 혁신과 토탈 서비스
