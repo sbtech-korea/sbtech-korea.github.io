@@ -9,11 +9,6 @@ mermaid: true
 
 <hr>
 
-
-# 설치 사진
-
-<hr>
-
 <html>
   <head>
     <meta charset="UTF-8">
@@ -116,7 +111,7 @@ mermaid: true
     <div class="min-h-screen bg-background text-foreground flex flex-col">
   <main class="flex-grow p-6">
     <section class="mb-8">
-      <h2 class="text-xl font-semibold mb-4">Featured Images</h2>
+      <h2 class="text-xl font-semibold mb-4">설치 사진</h2>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
         <div class="bg-card rounded-lg overflow-hidden shadow">
           <img alt="Featured Image 1" src="https://picsum.photos/400/300?random=1" class="w-full h-48 object-cover" />
