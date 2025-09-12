@@ -1,5 +1,5 @@
 ---
-title: About others
+title: 
 author: SBTECH
 date: 2022-02-04
 category: Jekyll
