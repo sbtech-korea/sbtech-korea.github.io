@@ -10,102 +10,56 @@ mermaid: true
 <hr>
 
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ✅ SEO Meta Tags -->
+    <title>산업용 배터리 설치 및 이미지 가이드 | SBTECH</title>
+    <meta name="description" content="산업용 배터리 설치 과정과 실제 설치 사진을 제공합니다. 최신 업로드 이미지와 설치 기록을 통해 산업용 배터리 활용 방법을 확인하세요." />
+    <meta name="keywords" content="산업용 배터리, 배터리 설치, 산업용 배터리 교체, 배터리 이미지 가이드, 산업 배터리 관리" />
+
+    <!-- ✅ Open Graph / Facebook -->
+    <meta property="og:title" content="산업용 배터리 설치 및 이미지 가이드 | SBTECH" />
+    <meta property="og:description" content="산업용 배터리 설치 사진과 최근 업로드된 이미지 기록을 확인하세요." />
+    <meta property="og:image" content="https://sbtech.co.kr/assets/images/industrial-battery.jpg" />
+    <meta property="og:url" content="https://sbtech.co.kr/blog/industrial-battery" />
+    <meta property="og:type" content="article" />
+
+    <!-- ✅ Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="산업용 배터리 설치 및 이미지 가이드 | SBTECH" />
+    <meta name="twitter:description" content="산업용 배터리 설치 사진과 최근 업로드된 이미지 기록을 확인하세요." />
+    <meta name="twitter:image" content="https://sbtech.co.kr/assets/images/industrial-battery.jpg" />
+
+    <!-- ✅ Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "산업용 배터리 설치 및 이미지 가이드",
+      "image": "https://sbtech.co.kr/assets/images/industrial-battery.jpg",
+      "author": {
+        "@type": "Person",
+        "name": "박민서"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "SBTECH Corp.",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://sbtech.co.kr/assets/images/logo.png"
+        }
+      },
+      "datePublished": "2025-08-22",
+      "dateModified": "2025-08-22",
+      "description": "산업용 배터리 설치 과정과 실제 설치 사진을 제공합니다. 최신 업로드 이미지와 설치 기록을 통해 산업용 배터리 활용 방법을 확인하세요."
+    }
+    </script>
+
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
-		<script src="https://unpkg.com/unlazy@0.11.3/dist/unlazy.with-hashing.iife.js" defer init></script>
-		<script type="text/javascript">
-			window.tailwind.config = {
-				darkMode: ['class'],
-				theme: {
-					extend: {
-						colors: {
-							border: 'hsl(var(--border))',
-							input: 'hsl(var(--input))',
-							ring: 'hsl(var(--ring))',
-							background: 'hsl(var(--background))',
-							foreground: 'hsl(var(--foreground))',
-							primary: {
-								DEFAULT: 'hsl(var(--primary))',
-								foreground: 'hsl(var(--primary-foreground))'
-							},
-							secondary: {
-								DEFAULT: 'hsl(var(--secondary))',
-								foreground: 'hsl(var(--secondary-foreground))'
-							},
-							destructive: {
-								DEFAULT: 'hsl(var(--destructive))',
-								foreground: 'hsl(var(--destructive-foreground))'
-							},
-							muted: {
-								DEFAULT: 'hsl(var(--muted))',
-								foreground: 'hsl(var(--muted-foreground))'
-							},
-							accent: {
-								DEFAULT: 'hsl(var(--accent))',
-								foreground: 'hsl(var(--accent-foreground))'
-							},
-							popover: {
-								DEFAULT: 'hsl(var(--popover))',
-								foreground: 'hsl(var(--popover-foreground))'
-							},
-							card: {
-								DEFAULT: 'hsl(var(--card))',
-								foreground: 'hsl(var(--card-foreground))'
-							},
-						},
-					}
-				}
-			}
-		</script>
-		<style type="text/tailwindcss">
-			@layer base {
-				:root {
-					--background: 0 0% 100%;
---foreground: 240 10% 3.9%;
---card: 0 0% 100%;
---card-foreground: 240 10% 3.9%;
---popover: 0 0% 100%;
---popover-foreground: 240 10% 3.9%;
---primary: 240 5.9% 10%;
---primary-foreground: 0 0% 98%;
---secondary: 240 4.8% 95.9%;
---secondary-foreground: 240 5.9% 10%;
---muted: 240 4.8% 95.9%;
---muted-foreground: 240 3.8% 46.1%;
---accent: 240 4.8% 95.9%;
---accent-foreground: 240 5.9% 10%;
---destructive: 0 84.2% 60.2%;
---destructive-foreground: 0 0% 98%;
---border: 240 5.9% 90%;
---input: 240 5.9% 90%;
---ring: 240 5.9% 10%;
---radius: 0.5rem;
-				}
-				.dark {
-					--background: 240 10% 3.9%;
---foreground: 0 0% 98%;
---card: 240 10% 3.9%;
---card-foreground: 0 0% 98%;
---popover: 240 10% 3.9%;
---popover-foreground: 0 0% 98%;
---primary: 0 0% 98%;
---primary-foreground: 240 5.9% 10%;
---secondary: 240 3.7% 15.9%;
---secondary-foreground: 0 0% 98%;
---muted: 240 3.7% 15.9%;
---muted-foreground: 240 5% 64.9%;
---accent: 240 3.7% 15.9%;
---accent-foreground: 0 0% 98%;
---destructive: 0 62.8% 30.6%;
---destructive-foreground: 0 0% 98%;
---border: 240 3.7% 15.9%;
---input: 240 3.7% 15.9%;
---ring: 240 4.9% 83.9%;
-				}
-			}
-		</style>
+    <script src="https://unpkg.com/unlazy@0.11.3/dist/unlazy.with-hashing.iife.js" defer init></script>
   </head>
   <body>
     <div class="min-h-screen bg-background text-foreground flex flex-col">
