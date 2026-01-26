@@ -306,7 +306,7 @@ mermaid: true
 
     <!-- ✅ 블로그 글 작성 영역 (설치 장소 사진 아래 / 담당자 섹션 위) -->
     <section class="post-section">
-      <h2 class="post-title">작업 후기 / 상세 내용</h2>
+      <div class="post-title">작업 후기 / 상세 내용</div>
 
       <div class="post-body">
         <p>
