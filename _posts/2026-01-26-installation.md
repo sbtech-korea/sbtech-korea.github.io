@@ -269,8 +269,6 @@ mermaid: true
 
 <body>
   <div class="container">
-    <h1>서울대학교 병원 UPS 배터리 설치 완료!</h1>
-
     <div class="meta-info">
       작성일: 2026.01.28<br />
     </div>
