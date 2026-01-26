@@ -5,7 +5,6 @@ permalink: /
 cover: https://sbtech-korea.github.io/assets/main.jpg
 ---
 
-<!DOCTYPE html>
 <html lang="ko">
 <head>
   <meta charset="UTF-8" />
