@@ -443,48 +443,6 @@ cover: https://sbtech-korea.github.io/assets/main.jpg
           <div class="logo-box"></div>
           <span>(주)에스비테크</span>
         </a>
-
-        <nav>
-          <!-- Company dropdown -->
-          <div class="dropdown" id="companyDropdown">
-            <button type="button" class="dropdown-toggle">
-              (주)에스비테크
-              <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                <path d="M19 9l-7 7-7-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-              </svg>
-            </button>
-            <div class="dropdown-menu">
-              <a href="/introduction">회사개요</a>
-              <a href="/about">대표인사말</a>
-              <a href="/organization">조직도</a>
-              <a href="/history">회사연혁</a>
-              <a href="/product-line">취급품목</a>
-              <a href="#introduction">물류센터</a>
-              <a href="/contact">오시는길</a>
-            </div>
-          </div>
-
-          <!-- Products dropdown -->
-          <div class="dropdown" id="productsDropdown">
-            <button type="button" class="dropdown-toggle">
-              제품개요
-              <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                <path d="M19 9l-7 7-7-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-              </svg>
-            </button>
-            <div class="dropdown-menu">
-              <a href="#products">차량용 배터리</a>
-              <a href="#products">산업용 배터리</a>
-              <a href="#products">전동용 배터리</a>
-            </div>
-          </div>
-
-          <a href="#specifications">자동차배터리제원표</a>
-          <a href="/locations">전국협력점안내</a>
-          <a href="#catalog">제품카다로그</a>
-          <a href="/gallery">설치갤러리</a>
-          <a href="/support">고객센터</a>
-        </nav>
       </div>
     </div>
   </header>
