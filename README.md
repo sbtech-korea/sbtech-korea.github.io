@@ -435,18 +435,6 @@ cover: https://sbtech-korea.github.io/assets/main.jpg
 </head>
 
 <body>
-  <!-- Header -->
-  <header>
-    <div class="container">
-      <div class="header-inner">
-        <a href="/" class="brand">
-          <div class="logo-box"></div>
-          <span>(주)에스비테크</span>
-        </a>
-      </div>
-    </div>
-  </header>
-
   <!-- Hero -->
   <section class="hero" id="introduction">
     <div class="hero-bg"></div>
