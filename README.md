@@ -5,6 +5,7 @@ permalink: /
 cover: https://sbtech-korea.github.io/assets/main.jpg
 ---
 
+<!DOCTYPE html>
 <html lang="ko">
 <head>
   <meta charset="UTF-8" />
@@ -44,96 +45,6 @@ cover: https://sbtech-korea.github.io/assets/main.jpg
       padding: 0 16px;
     }
 
-    /* Header */
-    header{
-      position: sticky;
-      top: 0;
-      z-index: 50;
-      background: rgba(255,255,255,.8);
-      backdrop-filter: blur(10px);
-      border-bottom: 1px solid var(--gray200);
-    }
-    .header-inner{
-      display:flex;
-      align-items:center;
-      justify-content: space-between;
-      padding: 16px 0;
-    }
-    .brand{
-      display:flex;
-      align-items:center;
-      gap: 10px;
-      font-weight: 800;
-      font-size: 20px;
-    }
-    .logo-box{
-      width:40px;
-      height:40px;
-      background: var(--blue);
-      border-radius: 10px;
-    }
-
-    nav{
-      display:none;
-      align-items:center;
-      gap: 28px;
-      color: var(--gray600);
-      font-weight: 600;
-    }
-    nav a, nav button{
-      color: var(--gray600);
-      background: transparent;
-      border: 0;
-      padding: 8px 0;
-      cursor: pointer;
-      font: inherit;
-      display: inline-flex;
-      align-items:center;
-      gap: 6px;
-    }
-    nav a:hover, nav button:hover{ color: var(--blue); }
-
-    @media (min-width: 768px){
-      nav{ display:flex; }
-    }
-
-    /* Dropdown */
-    .dropdown{
-      position: relative;
-    }
-    .dropdown-menu{
-      position:absolute;
-      left:0;
-      top: 100%;
-      margin-top: 8px;
-      width: 200px;
-      background: var(--white);
-      border: 1px solid var(--gray200);
-      border-radius: 10px;
-      box-shadow: var(--shadow);
-      padding: 6px;
-      display:none;
-    }
-    .dropdown-menu a{
-      display:block;
-      padding: 10px 12px;
-      border-radius: 8px;
-      font-size: 14px;
-      color: var(--gray700);
-    }
-    .dropdown-menu a:hover{
-      background: var(--gray100);
-    }
-    .dropdown.open .dropdown-menu{
-      display:block;
-    }
-    .chev{
-      width: 16px;
-      height: 16px;
-      display:inline-block;
-      transform: translateY(1px);
-    }
-
     /* Buttons */
     .btn{
       display:inline-flex;
@@ -162,7 +73,6 @@ cover: https://sbtech-korea.github.io/assets/main.jpg
       color: var(--gray900);
     }
     .btn-outline:hover{ background: var(--gray100); }
-
     .btn-lg{ padding: 16px 26px; font-size: 18px; }
 
     /* Sections */
@@ -367,9 +277,11 @@ cover: https://sbtech-korea.github.io/assets/main.jpg
       justify-content:center;
       flex: 0 0 auto;
       margin-top: 2px;
+      font-weight: 800;
+      color: #1e40af;
     }
     .info-item h4{ margin:0 0 4px 0; font-size: 14px; }
-    .info-item p{ margin:0; color: var(--gray600); font-size: 14px; line-height: 1.4; }
+    .info-item p{ margin:0; color: var(--gray600); font-size: 14px; line-height: 1.5; }
 
     .form{
       display:flex;
@@ -446,8 +358,8 @@ cover: https://sbtech-korea.github.io/assets/main.jpg
       <p class="lead">차량용밧테리 / 산업용밧테리 / UPS 밧테리 전문</p>
 
       <div class="hero-actions">
-        <a class="btn btn-primary btn-lg" href="#">무료 체험 시작</a>
-        <a class="btn btn-outline btn-lg" href="#">데모 보기</a>
+        <a class="btn btn-primary btn-lg" href="#support">상담 문의하기</a>
+        <a class="btn btn-outline btn-lg" href="#catalog">카탈로그 보기</a>
       </div>
     </div>
   </section>
@@ -469,7 +381,7 @@ cover: https://sbtech-korea.github.io/assets/main.jpg
             ※ 델코 전국 판매1위<br />
             ※ X-Pro 전국판매 1위<br />
             ※ GM 순정배터리 전국총판<br />
-            ※ 쌍용용자동차 순정배터리 전국총판<br />
+            ※ 쌍용자동차 순정배터리 전국총판<br />
             ※ 아트라스 배터리 산업용 판매우수업체
           </p>
           <p style="color:var(--gray700); line-height:1.8; margin:0;">
@@ -504,41 +416,40 @@ cover: https://sbtech-korea.github.io/assets/main.jpg
         <div class="detail-box detail-blue">
           <h3>차량용 배터리</h3>
           <p>
-            전기차 및 하이브리드 차량에 최적화된 고성능 리튬 이온 배터리입니다.
-            높은 에너지 밀도와 긴 수명을 제공하여 차량의 주행 성능과 효율성을 극대화합니다.
+            차량 모델 및 규격에 맞춘 정확한 호환 확인을 기반으로,
+            안정적인 시동 성능과 전장 시스템 보호를 돕습니다.
           </p>
           <p>특징:</p>
           <ul>
-            <li>높은 에너지 밀도</li>
-            <li>긴 수명 (5~8년)</li>
-            <li>빠른 충전 속도</li>
+            <li>차종/연식/규격 기반 호환 확인</li>
+            <li>설치 후 전압/충전 상태 점검</li>
             <li>안정적인 전력 공급</li>
-            <li>환경 친화적 설계</li>
+            <li>정품/출처 명확</li>
+            <li>사후관리 기준 안내</li>
           </ul>
           <p>
-            차량용 배터리는 차량의 전기 시스템을 안정적으로 지원하며,
-            최신 기술로 제작되어 뛰어난 성능과 신뢰성을 제공합니다.
+            과한 권유보다 필요한 사양을 정확히 안내드리며,
+            설치 후 점검까지 책임집니다.
           </p>
         </div>
 
         <div class="detail-box detail-green">
           <h3>산업용 배터리</h3>
           <p>
-            산업용 장비 및 시설에 적합한 고성능 배터리로,
-            장시간 사용에 특화된 설계를 가지고 있습니다.
-            저온 성능 우수하고, 장기적인 사용을 위한 내구성을 갖추고 있습니다.
+            산업 현장 및 UPS 환경에 맞춰 용량·방전특성·운용 조건을 고려해
+            안정적인 백업 전원을 제공합니다.
           </p>
           <p>특징:</p>
           <ul>
-            <li>장시간 사용 가능</li>
-            <li>저온 성능 우수 (-20°C까지 작동)</li>
+            <li>UPS/시설 환경 맞춤 제안</li>
+            <li>장시간 운용에 적합한 구성</li>
+            <li>저온/부하 환경 고려</li>
             <li>고신뢰성 설계</li>
-            <li>장기적인 사용 수명</li>
-            <li>안정적인 전력 공급</li>
+            <li>점검/교체 주기 안내</li>
           </ul>
           <p>
-            산업용 배터리는 공장 자동화, 저장 시스템, 재생 에너지 저장 등
-            다양한 산업 분야에서 안정적인 전력 공급을 제공합니다.
+            공장 자동화, 저장 시스템, 재생 에너지 저장 등
+            다양한 산업 분야에 안정적인 전력 공급을 지원합니다.
           </p>
         </div>
       </div>
@@ -579,7 +490,7 @@ cover: https://sbtech-korea.github.io/assets/main.jpg
     <div class="container">
       <div class="center" style="margin-bottom: 52px;">
         <h2 style="margin:0 0 10px 0; font-size: 34px;">고객센터</h2>
-        <p class="lead" style="margin-bottom:0;">궁금한 점이 있으신가요? 저희에게 말씀해주세요.</p>
+        <p class="lead" style="margin-bottom:0;">상담이 필요하시면 연락처 또는 문의폼을 이용해 주세요.</p>
       </div>
 
       <div class="support-grid">
@@ -588,10 +499,26 @@ cover: https://sbtech-korea.github.io/assets/main.jpg
 
           <div style="display:flex; flex-direction:column; gap:14px;">
             <div class="info-item">
+              <div class="icon-box">📍</div>
+              <div>
+                <h4>주소</h4>
+                <p>경기도 김포시 금포로 1517(운양동)</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="icon-box">🧾</div>
+              <div>
+                <h4>사업자 정보</h4>
+                <p>사업자번호: 137-86-31906<br />대표자: 박승태</p>
+              </div>
+            </div>
+
+            <div class="info-item">
               <div class="icon-box">☎</div>
               <div>
-                <h4>전화</h4>
-                <p>1588-1234</p>
+                <h4>전화 / 팩스</h4>
+                <p>TEL: 031-985-7315<br />FAX: 031-985-1661</p>
               </div>
             </div>
 
@@ -599,15 +526,7 @@ cover: https://sbtech-korea.github.io/assets/main.jpg
               <div class="icon-box">✉</div>
               <div>
                 <h4>이메일</h4>
-                <p>support@sbtech.com</p>
-              </div>
-            </div>
-
-            <div class="info-item">
-              <div class="icon-box">📍</div>
-              <div>
-                <h4>사무실</h4>
-                <p>123 비즈니스 아바니드<br />서울, 한국</p>
+                <p><a href="mailto:pst1001@naver.com" style="text-decoration:underline; color: var(--blue);">pst1001@naver.com</a></p>
               </div>
             </div>
           </div>
@@ -621,6 +540,9 @@ cover: https://sbtech-korea.github.io/assets/main.jpg
             <textarea id="messageInput" rows="4" placeholder="메시지" required></textarea>
             <button class="btn btn-primary" type="submit" style="width:100%;">메시지 보내기</button>
           </form>
+          <p style="margin:10px 0 0; color: var(--gray600); font-size: 13px; line-height:1.5;">
+            ※ 문의 내용 확인 후 순차적으로 연락드립니다.
+          </p>
         </div>
       </div>
     </div>
@@ -635,7 +557,9 @@ cover: https://sbtech-korea.github.io/assets/main.jpg
             <div style="width:32px;height:32px;background:var(--blue);border-radius:10px;"></div>
             <div class="footer-title" style="margin:0;">(주)에스비테크</div>
           </div>
-          <p class="muted" style="margin:0;">미래를 위한 혁신적인 솔루션을 제공합니다.</p>
+          <p class="muted" style="margin:0;">
+            기준과 원칙으로 답하는 배터리 전문기업
+          </p>
         </div>
 
         <div>
@@ -643,34 +567,31 @@ cover: https://sbtech-korea.github.io/assets/main.jpg
           <ul class="footer-links">
             <li><a href="#introduction">회사소개</a></li>
             <li><a href="#products">제품개요</a></li>
-            <li><a href="#specifications">자동차배터리제원표</a></li>
-            <li><a href="/locations">전국협력점안내</a></li>
             <li><a href="#catalog">제품카다로그</a></li>
-            <li><a href="/gallery">설치갤러리</a></li>
+            <li><a href="#gallery">설치갤러리</a></li>
             <li><a href="#support">고객센터</a></li>
           </ul>
         </div>
 
         <div>
-          <div class="footer-title">서비스</div>
+          <div class="footer-title">취급 분야</div>
           <ul class="footer-links">
-            <li><a href="#">웹 개발</a></li>
-            <li><a href="#">모바일 앱</a></li>
-            <li><a href="#">UI/UX 디자인</a></li>
-            <li><a href="#">클라우드 솔루션</a></li>
+            <li class="muted">차량용 배터리</li>
+            <li class="muted">산업용 배터리</li>
+            <li class="muted">UPS 배터리</li>
+            <li class="muted">설치 및 공급</li>
           </ul>
         </div>
 
         <div>
           <div class="footer-title">연락처 정보</div>
           <ul class="footer-links">
-            <li class="muted">(주)에스비테크</li>
             <li class="muted">주소: 경기도 김포시 금포로 1517(운양동)</li>
             <li class="muted">사업자번호: 137-86-31906</li>
             <li class="muted">대표자: 박승태</li>
             <li class="muted">TEL: 031-985-7315</li>
             <li class="muted">FAX: 031-985-1661</li>
-            <li class="muted">E-mail: pst1001@naver.com</li>
+            <li class="muted">E-mail: <a href="mailto:pst1001@naver.com" style="text-decoration:underline;">pst1001@naver.com</a></li>
           </ul>
         </div>
       </div>
@@ -689,31 +610,31 @@ cover: https://sbtech-korea.github.io/assets/main.jpg
       {
         id: 1,
         name: "델코 배터리",
-        description: "고성능 리튬 이온 배터리로, 전기차 및 하이브리드 차량에 최적화되어 있습니다. 높은 에너지 밀도와 긴 수명을 제공합니다.",
+        description: "차량용/산업용 전 라인업 취급. 규격 확인 후 정확한 사양으로 안내드립니다.",
         image: "delco-battery.jpg"
       },
       {
         id: 2,
         name: "로케트 배터리",
-        description: "산업용 장비 및 시설용 고성능 배터리로, 장시간 사용에 적합한 설계를 가지고 있습니다. 저온 성능 우수합니다.",
+        description: "산업 현장 및 장비 환경에 맞춘 배터리 솔루션을 제공합니다.",
         image: "rocket-battery.jpg"
       },
       {
         id: 3,
         name: "아트라스 배터리",
-        description: "전동 편의차 및 전동 도구용 배터리로, 가벼운 무게와 높은 성능을 동시에 제공합니다. 효율적인 충전 기능을 갖추고 있습니다.",
+        description: "다양한 운용 조건을 고려한 안정적인 전력 공급을 지원합니다.",
         image: "atlas-battery.jpg"
       },
       {
         id: 4,
         name: "엑스프로 배터리",
-        description: "고출력 전기차용 배터리로, 빠른 충전 속도와 높은 출력력을 자랑합니다. 최신 기술로 제작되어 안정적인 성능을 제공합니다.",
+        description: "용도/부하 조건에 맞춰 성능과 안정성을 균형 있게 제안합니다.",
         image: "xpro-battery.jpg"
       },
       {
         id: 5,
         name: "솔라이트 배터리",
-        description: "친환경 에너지 솔루션으로, 재활용 가능한 재료로 제작되어 환경에 미치는 영향을 최소화합니다. 지속 가능한 에너지 공급을 목표로 합니다.",
+        description: "검증된 제품과 표준 절차로 설치부터 사후관리까지 책임집니다.",
         image: "solight-battery.jpg"
       }
     ];
@@ -722,84 +643,69 @@ cover: https://sbtech-korea.github.io/assets/main.jpg
     // Render batteries cards
     // ----------------------------
     const batteryGrid = document.getElementById("batteryGrid");
-    batteryGrid.innerHTML = batteries.map(b => `
-      <div class="card">
-        <div class="card-img">Battery Image</div>
-        <div class="card-body">
-          <h3 class="card-title">${b.name}</h3>
-          <p class="card-desc">${b.description}</p>
+    if (batteryGrid) {
+      batteryGrid.innerHTML = batteries.map(b => `
+        <div class="card">
+          <div class="card-img">Battery Image</div>
+          <div class="card-body">
+            <h3 class="card-title">${b.name}</h3>
+            <p class="card-desc">${b.description}</p>
+          </div>
         </div>
-      </div>
-    `).join("");
+      `).join("");
+    }
 
     // ----------------------------
     // Gallery marquee (1~10 두 번)
     // ----------------------------
     const galleryMarquee = document.getElementById("galleryMarquee");
-    const items = Array.from({length: 10}, (_, i) => i + 1);
-    const renderGalleryItem = (n, keyPrefix="") => `
-      <a href="/gallery/${n}" aria-label="설치 갤러리 ${n}">
-        <div class="gallery-card">
-          <div class="gallery-img">설치 이미지 ${n}</div>
-          <div class="gallery-body">
-            <h3>설치 ${n}</h3>
-            <p>프로젝트 설명이 여기에 옵니다</p>
+    if (galleryMarquee) {
+      const items = Array.from({length: 10}, (_, i) => i + 1);
+      const renderGalleryItem = (n) => `
+        <a href="/gallery/${n}" aria-label="설치 갤러리 ${n}">
+          <div class="gallery-card">
+            <div class="gallery-img">설치 이미지 ${n}</div>
+            <div class="gallery-body">
+              <h3>설치 ${n}</h3>
+              <p>설치 사례 설명이 여기에 표시됩니다</p>
+            </div>
           </div>
-        </div>
-      </a>
-    `;
-    galleryMarquee.innerHTML =
-      items.map(n => renderGalleryItem(n, "")).join("") +
-      items.map(n => renderGalleryItem(n, "duplicate-")).join("");
+        </a>
+      `;
+      galleryMarquee.innerHTML =
+        items.map(n => renderGalleryItem(n)).join("") +
+        items.map(n => renderGalleryItem(n)).join("");
+    }
 
     // ----------------------------
-    // Dropdown logic (React useState/useRef/useEffect 대체)
-    // ----------------------------
-    const companyDropdown = document.getElementById("companyDropdown");
-    const productsDropdown = document.getElementById("productsDropdown");
-
-    companyDropdown.querySelector("button").addEventListener("click", (e) => {
-      e.stopPropagation();
-      companyDropdown.classList.toggle("open");
-      productsDropdown.classList.remove("open");
-    });
-
-    productsDropdown.querySelector("button").addEventListener("click", (e) => {
-      e.stopPropagation();
-      productsDropdown.classList.toggle("open");
-      companyDropdown.classList.remove("open");
-    });
-
-    document.addEventListener("mousedown", (e) => {
-      // 바깥 클릭 시 닫기
-      if (!companyDropdown.contains(e.target)) companyDropdown.classList.remove("open");
-      if (!productsDropdown.contains(e.target)) productsDropdown.classList.remove("open");
-    });
-
-    // ----------------------------
-    // Contact form submit (React handleSubmit 대체)
+    // Contact form submit
     // ----------------------------
     const contactForm = document.getElementById("contactForm");
     const emailInput = document.getElementById("emailInput");
     const messageInput = document.getElementById("messageInput");
 
-    contactForm.addEventListener("submit", (e) => {
-      e.preventDefault();
-      const payload = {
-        email: emailInput.value.trim(),
-        message: messageInput.value.trim()
-      };
-      console.log("Form submitted:", payload);
-      alert("Thank you for your message! We'll get back to you soon.");
-      emailInput.value = "";
-      messageInput.value = "";
-    });
+    if (contactForm && emailInput && messageInput) {
+      contactForm.addEventListener("submit", (e) => {
+        e.preventDefault();
+        const payload = {
+          email: emailInput.value.trim(),
+          message: messageInput.value.trim()
+        };
+        console.log("Form submitted:", payload);
+        alert("문의가 접수되었습니다. 확인 후 빠르게 연락드리겠습니다.");
+        emailInput.value = "";
+        messageInput.value = "";
+      });
+    }
 
     // ----------------------------
     // Footer year
     // ----------------------------
-    document.getElementById("copyright").textContent =
-      `© ${new Date().getFullYear()} (주)에스비테크. All rights reserved.`;
+    const c = document.getElementById("copyright");
+    if (c) {
+      c.textContent = `© ${new Date().getFullYear()} (주)에스비테크. All rights reserved.`;
+    }
   </script>
 </body>
 </html>
+
