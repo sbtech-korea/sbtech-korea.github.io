@@ -185,7 +185,7 @@ mermaid: true
         grid-template-columns: 1fr;
       }
       .profile-photo, .business-card-img {
-        aspect-ratio: 4 / 3;
+        aspect-ratio: 3 / 4;
         min-height: 180px;
       }
     }
