@@ -11,6 +11,7 @@ mermaid: true
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>서울대학교 병원 UPS 배터리 설치 완료!</title>
   <style>
     body {
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -38,7 +39,7 @@ mermaid: true
       text-align: center;
       color: #7f8c8d;
       margin-bottom: 30px;
-      font-size: 0.9em;
+      font-size: 0.95em;
     }
     :root {
       --gallery-ratio: 4 / 3;
@@ -67,8 +68,8 @@ mermaid: true
       display: block;
     }
     .photo-caption {
-      margin-top: 8px;
-      font-size: 0.85em;
+      margin-top: 10px;
+      font-size: 0.95em;
       color: #7f8c8d;
       text-align: center;
     }
@@ -82,44 +83,50 @@ mermaid: true
     /* =========================
        ✅ 블로그 글 영역
        (설치 장소 사진과 담당자/연락처 사이)
+       ✅ "1.2배" 크기로 조정
     ========================= */
     .post-section {
       margin: 34px 0 10px;
-      padding: 22px;
+      padding: 31px;                 /* 26px × 1.2 ≈ 31px */
       border: 1px solid #e5e7eb;
       border-radius: 14px;
       background: #ffffff;
     }
     .post-title {
-      margin: 0 0 14px;
-      font-size: 1.15rem;
-      font-weight: 800;
+      margin: 0 0 19px;              /* 16px × 1.2 ≈ 19px */
+      font-size: 2.46rem;            /* 2.05rem × 1.2 */
+      font-weight: 900;
       color: #2c3e50;
-      border-left: 4px solid #3498db;
-      padding-left: 10px;
+      border-left: 5px solid #3498db;
+      padding-left: 14px;            /* 12px × 1.2 ≈ 14px */
+      letter-spacing: -0.3px;
     }
     .post-body {
-      color: #333;
-      line-height: 1.75;
-      font-size: 0.98rem;
+      color: #222;
+      line-height: 2.46;             /* 2.05 × 1.2 */
+      font-size: 1.86rem;            /* 1.55rem × 1.2 */
+      letter-spacing: -0.2px;
+      word-break: keep-all;
     }
     .post-body p {
-      margin: 0 0 12px;
+      margin: 0 0 22px;              /* 18px × 1.2 ≈ 22px */
     }
     .post-body ul,
     .post-body ol {
-      margin: 0 0 12px 20px;
+      margin: 0 0 22px 36px;         /* 18px/30px × 1.2 */
       padding: 0;
     }
     .post-body li {
-      margin: 6px 0;
+      margin: 12px 0;                /* 10px × 1.2 */
     }
     .post-body .info-box {
-      margin-top: 14px;
-      padding: 14px 16px;
+      margin-top: 22px;              /* 18px × 1.2 ≈ 22px */
+      padding: 22px 24px;            /* 18/20 × 1.2 */
       background: #f8fafc;
       border: 1px solid #e5e7eb;
       border-radius: 12px;
+      font-size: 1.74rem;            /* 1.45rem × 1.2 */
+      line-height: 2.4;              /* 2.0 × 1.2 */
     }
     .post-body .info-box strong {
       color: #2c3e50;
@@ -137,14 +144,15 @@ mermaid: true
       background: #fafafa;
     }
     .contact-title {
-      font-weight: 700;
+      font-weight: 800;
       color: #2c3e50;
       margin-bottom: 16px;
+      font-size: 1.05rem;
     }
 
     .contact-grid {
       display: grid;
-      grid-template-columns: 1fr 3fr; /* ✅ 무조건 1:3 */
+      grid-template-columns: 1fr 3fr;
       gap: 18px;
       align-items: stretch;
     }
@@ -153,19 +161,17 @@ mermaid: true
       border: 1px dashed #cbd5e1;
       border-radius: 14px;
       background: #fff;
-
-      height: var(--contact-row-h); /* ✅ 두 박스 높이 동일 */
+      height: var(--contact-row-h);
       padding: 12px;
       box-sizing: border-box;
-
-      display: block;  /* flex 제거 */
-      min-height: 0;   /* ✅ 기존 min-height 영향 제거 */
+      display: block;
+      min-height: 0;
     }
 
     .profile-photo,
     .business-card-img {
       width: 100%;
-      height: 100%; /* ✅ card-box 높이를 그대로 사용 */
+      height: 100%;
       border-radius: var(--img-radius);
       overflow: hidden;
       border: 1px solid #e5e7eb;
@@ -173,7 +179,6 @@ mermaid: true
       box-sizing: border-box;
     }
 
-    /* 내 사진: 꽉 차게 */
     .profile-photo img {
       width: 100%;
       height: 100%;
@@ -181,7 +186,6 @@ mermaid: true
       display: block;
     }
 
-    /* 명함: 전체가 다 보이게 */
     .business-card-img {
       cursor: zoom-in;
     }
@@ -243,7 +247,7 @@ mermaid: true
       padding-top: 20px;
       border-top: 1px solid #eee;
       color: #95a5a6;
-      font-size: 0.8em;
+      font-size: 0.85em;
     }
 
     /* =========================
@@ -254,15 +258,18 @@ mermaid: true
         grid-template-columns: 1fr;
       }
 
-      /* 모바일은 세로로 쌓기 */
       .contact-grid {
         grid-template-columns: 1fr;
       }
 
-      /* 모바일에서 보기 좋게 높이 조정 */
       .card-box {
         height: 200px;
       }
+
+      /* ✅ 모바일에서도 1.2배 기준 */
+      .post-title { font-size: 2.10rem; }                 /* 1.75 × 1.2 */
+      .post-body  { font-size: 1.62rem; line-height: 2.34; } /* 1.35 × 1.2, 1.95 × 1.2 */
+      .post-body .info-box { font-size: 1.50rem; line-height: 2.28; } /* 1.25 × 1.2, 1.9 × 1.2 */
     }
   </style>
 </head>
@@ -306,18 +313,18 @@ mermaid: true
 
     <!-- ✅ 블로그 글 작성 영역 (설치 장소 사진 아래 / 담당자 섹션 위) -->
     <section class="post-section">
-      <div class="post-title">작업 후기 / 상세 내용</div>
 
       <div class="post-body">
+        <p class="post-title">작업 후기 / 상세 내용</p>
         <p>
-          이번에 서울대학교 병원에서 UPS 시스템의 배터리 교체 작업을 완료했습니다. 
-          기존에 사용하던 배터리가 수명이 다되어 안정적인 전력 공급이 어려웠던 상황에서 
+          이번에 서울대학교 병원에서 UPS 시스템의 배터리 교체 작업을 완료했습니다.
+          기존에 사용하던 배터리가 수명이 다되어 안정적인 전력 공급이 어려웠던 상황에서
           새로운 배터리로 교체하여 시스템의 신뢰성을 높였습니다.
         </p>
 
         <p>
-          설치 과정은 전문적인 팀이 진행했으며, 모든 단계에서 안전 규정을 준수했습니다. 
-          특히 배터리 철거 시에는 전원 차단 및 방전 작업을 꼼꼼히 수행하여 
+          설치 과정은 전문적인 팀이 진행했으며, 모든 단계에서 안전 규정을 준수했습니다.
+          특히 배터리 철거 시에는 전원 차단 및 방전 작업을 꼼꼼히 수행하여
           장비 손상이나 사고 예방에 최선을 다했습니다.
         </p>
 
@@ -331,8 +338,8 @@ mermaid: true
         </div>
 
         <p>
-          설치 후에는 전압 및 충전 상태를 체크하고, UPS 시스템이 정상적으로 작동하는지 
-          여러 가지 테스트를 진행했습니다. 모든 테스트 결과 정상적으로 작동함을 확인하였습니다. 
+          설치 후에는 전압 및 충전 상태를 체크하고, UPS 시스템이 정상적으로 작동하는지
+          여러 가지 테스트를 진행했습니다. 모든 테스트 결과 정상적으로 작동함을 확인하였습니다.
           이로 인해 병원 내 의료 장비의 지속적인 전력 공급이 가능해졌습니다.
         </p>
       </div>
