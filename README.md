@@ -457,7 +457,7 @@ cover: https://sbtech-korea.github.io/assets/main.jpg
     <div class="container">
       <div class="center" style="margin-bottom: 52px;">
         <h2 style="margin:0 0 10px 0; font-size: 34px;">(주) 에스비테크</h2>
-        <p class="lead" style="margin-bottom:0;">우리는 실제 차이를 만드는 솔루션을 만드는 데熱심합니다</p>
+        <p class="lead" style="margin-bottom:0;">기준과 원칙으로 답하는 배터리 전문기업</p>
       </div>
 
       <div class="grid-2">
