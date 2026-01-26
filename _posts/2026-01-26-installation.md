@@ -1,4 +1,3 @@
-
 ---
 title: 배터리 설치
 author: 박민서
@@ -8,9 +7,6 @@ layout: post
 mermaid: true
 ---
 
-<hr>
-
-<!DOCTYPE html>
 <html lang="ko">
 <head>
   <meta charset="UTF-8" />
