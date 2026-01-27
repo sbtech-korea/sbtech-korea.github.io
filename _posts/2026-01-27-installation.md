@@ -1,8 +1,8 @@
 ---
-title: 2026.01.26 서울대학교 병원 UPS 배터리 설치 완료!
+title: 2026.01.27 서울대학교 병원 UPS 배터리 설치 완료!
 author: 박민서
-date: 2026-01-26
-category: 배터리 설치
+date: 2026-01-27
+category: 2026.01.27 서울대학교 병원 UPS 배터리 설치 완료!
 layout: post
 mermaid: true
 ---
