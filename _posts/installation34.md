@@ -1,3 +1,12 @@
+---
+title: 2026.01.29 인천대학교 병원 UPS 배터리 설치 완료!
+author: 박민서
+date: 2026-01-29
+category: 2026.01.29 인천대학교 병원 UPS 배터리 설치 완료!
+layout: post
+mermaid: true
+---
+
 <html lang="ko">
 <head>
   <meta charset="UTF-8" />
