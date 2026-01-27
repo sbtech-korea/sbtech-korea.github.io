@@ -1,8 +1,8 @@
 ---
-title: 2026-01-27 11:39:28 강원도 한국전력 UPS UPS 배터리 설치 완료!
+title: 2026-01-27 강원도 한국전력 UPS UPS 배터리 설치 완료!
 author: 박민서
-date: 2026-01-27 11:39:28
-category: 2026-01-27 11:39:28 강원도 한국전력 UPS UPS 배터리 설치 완료!
+date: 2026-01-27
+category: 2026-01-27 강원도 한국전력 UPS UPS 배터리 설치 완료!
 layout: post
 mermaid: true
 ---
